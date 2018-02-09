@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "author": "github.com/amnesiacu",
+  "name": "Bookkeeper",
+  "description": "Sync your local bookmarks accross browers, choose which bookmarks to share.",
+  "version": "1.0",
+  "icons": { "16": "images/icon_16x16.png",
+             "48": "images/icon_48x48.png",
+             "128": "images/icon_128x128.png" },
+
+  "browser_action": {
+    "default_icon": "images/icon_16x16.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "bookmarks"
+  ]
+}
